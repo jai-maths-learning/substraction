@@ -29,9 +29,9 @@ while mytext == "yes":
     speak(wordToSpeak)
 
 
-    mytext = raw_input("Do you want to continue?")
-    wordToSpeak = "Do you want to continue "
-    speak(wordToSpeak)
+    #mytext = raw_input("Do you want to continue?")
+    #wordToSpeak = "Do you want to continue "
+    #speak(wordToSpeak)
 
 
     wordToSpeak = "Chia multiplication of " + str(number1) + " and " + str(number2) +  " is "  + str(result)
